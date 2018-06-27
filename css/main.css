@@ -7,7 +7,7 @@ body{
 
 @media (min-width:320px) and (max-width: 640px) { /* smartphones, iPhone, portrait 480x320 phones */
 	body{
-		background-image: url("/theCakePalette/images/background_portrait.jpg");
+		background-image: url("/theCakePalette.github.io/images/background_portrait.jpg");
 	}
 	#logo{
 		margin-left: 33%;
@@ -118,7 +118,7 @@ body{
 
 @media (min-width:641px) and (max-width:960px) { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ 
 	body{
-		background-image: url("/theCakePalette/images/background.jpg");
+		background-image: url("/theCakePalette.github.io/images/background.jpg");
 	}
 	#logo{
 		position: relative;
@@ -199,7 +199,7 @@ body{
 
 @media (min-width:961px){ /* tablet, landscape iPad, lo-res laptops and desktops */ 
 	body{
-		background-image: url("/theCakePalette/images/background.jpg");
+		background-image: url("/theCakePalette.github.io/images/background.jpg");
 		min-height: 100%;
 	}
 	#logo{
