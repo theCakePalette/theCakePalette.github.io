@@ -1,0 +1,143 @@
+hr{
+	height: 1px;
+	color: #c0d8e8;
+	border-color: #c0d8e8;
+	background-color: #c0d8e8;
+	border: none;
+}
+.content-gallery .gallery-content img:hover{
+	opacity: 0.7;
+	filter: alpha(opacity=70);
+	transition: opacity .4s ease-out;
+    -moz-transition: opacity .4s ease-out;
+    -webkit-transition: opacity .4s ease-out;
+    -o-transition: opacity .4s ease-out;
+}
+@media (min-width:320px) and (max-width: 640px) { /* smartphones, iPhone, portrait 480x320 phones */
+	.content-gallery{
+		position: relative;
+		top: 25px;
+		margin: 3%;
+	}
+	hr{
+		margin: auto;
+	}
+	.content-gallery .gallery-head{
+		font-family: 'Lato';
+		font-size: 1.3em;
+		font-weight: bold;
+		text-align: center;
+		padding: 1%;
+		letter-spacing: 0.3em;
+		color: #355b4f;
+		width: 100%;
+	}
+	.content-gallery .gallery-content img{
+		max-width: 300px;
+		position: relative;
+		margin-left: -150px;
+		left: 50%;
+		height: auto;
+		margin-right: 40%;
+		
+	}
+	.content-gallery .social-links{
+		padding-top: 5%;
+		padding-bottom: 2%;
+		max-width: 300px;
+		position: relative;
+		margin-left: -205px;
+		left: 50%;
+	}
+	.content-gallery .social-links li a{
+		padding-left: 10%;	
+	}
+	.footer{
+		margin-top: 8%;
+	}
+}
+
+@media (min-width:641px) and (max-width:960px) { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ 
+	.content-gallery{
+		position: relative;
+		top: 25px;
+		margin: 3%;
+	}
+	hr{
+		margin: auto;
+	}
+	.content-gallery .gallery-head{
+		font-family: 'Lato';
+		font-size: 2em;
+		font-weight: bold;
+		letter-spacing: 0.3em;
+		color: #355b4f;
+		text-align: center;
+		padding-top: 2%;
+	}
+	.content-gallery .gallery-content{
+		margin-top: 4%;
+	}
+	.content-gallery .gallery-content a img{
+		position: relative; 
+		max-width: 400px;
+		margin-left: -200px; 
+		left:50%; 
+		margin-right: 50%;
+	}
+	.content-gallery .social-links{
+		max-width: 400px;
+		position: relative;
+		margin-left: -200px;
+		left: 50%;
+		padding-top: 4%;
+	}
+	.content-gallery .social-links li a{
+		padding-left: 7%;	
+	}
+	.footer{
+		margin-top: 5%;
+	}
+}
+
+@media (min-width:961px){ /* tablet, landscape iPad, lo-res laptops and desktops */ 
+	.content-gallery{
+		position: relative;
+		top: 340px;
+		margin: auto;
+		width: 900px;
+	}
+	hr{
+		width: 100%;
+	}
+	.content-gallery .gallery-head{
+		font-family: 'Lato';
+		font-size: 2em;
+		font-weight: bold;
+		letter-spacing: 0.5em;
+		color: #355b4f;
+		text-align: center;
+		padding-top: 2%;
+	}
+	.content-gallery .gallery-content{
+		margin-top: 4%;
+	}
+	.content-gallery .gallery-content a img{
+		position: relative; 
+		max-width: 400px;
+		margin-left: -200px; 
+		left:50%; 
+		margin-right: 50%;
+	}
+	.content-gallery .social-links{
+		padding-top: 5%;
+		padding-bottom: 2%;
+		padding-left: 155px;
+	}
+	.content-gallery .social-links li a{
+		padding-left: 11%;	
+	}
+	.footer{
+		margin-top: 28%;
+	}
+}

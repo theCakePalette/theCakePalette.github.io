@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>The Cake Palette in Lonavala</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="/theCakePalette/js/home.js"></script>
+	<link rel="stylesheet" href="/theCakePalette/css/default.css">
+	<link rel="stylesheet" href="/theCakePalette/css/main.css">
+	<link rel="stylesheet" href="/theCakePalette/css/home.css">
+	<link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'>
+	<link href='https://fonts.googleapis.com/css?family=Oregano' rel='stylesheet'>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	<div class="header">
+		<div id="logo">
+			<img src="/theCakePalette/images/theCakePaletteLogo.png" alt="The Cake Palette logo">
+		</div>
+		<div class="nav">
+			<a href="/theCakePalette/index.html">HOME</a>
+			<a href="/theCakePalette/html/aboutUs.html">ABOUT US</a>
+			<a href="/theCakePalette/html/cakes&bakes.html">OUR CAKES & BAKES</a>
+			<a href="#">MENU</a>
+			<a href="#">BLOG</a>
+			<a href="/theCakePalette/html/contact.html">CONTACT</a>
+			<a href="#">FAQs</a>
+		</div>
+		<!-- Mobile -->
+		<div class="overlay">
+			<div class="wrap">
+				<ul class="wrap-nav">
+					<li><a href="/theCakePalette/index.html">HOME</a></li>
+					<li><a href="/theCakePalette/html/aboutUs.html">ABOUT US</a></li>
+					<li><a href="/theCakePalette/html/cakes&bakes.html">OUR CAKES & BAKES</a></li>
+					<li><a href="#">MENU</a></li>
+					<li><a href="#">BLOG</a></li>
+					<li><a href="/theCakePalette/html/contact.html">CONTACT</a></li>
+					<li><a href="#">FAQs</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="button">
+			<a  class="btn-open" href="#"><img src="/theCakePalette/images/menu-open-button1.png" width="25px" height="auto"></a>
+			<a class="btn-close" href="#"><img src="/theCakePalette/images/menu-close-button2.png" width="25px" height="auto"></a>
+		</div>
+		<!-- Mobile End -->
+	</div>
+	<div id="slider">
+		<div id="slides">
+		    <div class="slide showing" id="slide1">
+		    	<picture>
+					<source media="(max-width: 640px)" sizes="(max-width: 640px) 100vw"
+					srcset="/theCakePalette/images/FrontPagePhotos/cake1-mobile.jpg 640w">
+
+					<source media="(max-width: 960px)" sizes="(max-width: 960px) 100vw"
+					srcset="/theCakePalette/images/FrontPagePhotos/cake1-large.jpg 1024w">
+
+					<source media="(min-width: 961px)" sizes="100vw 70vw"
+					srcset="/theCakePalette/images/FrontPagePhotos/cake1-large.jpg 1024w">
+				
+					<img src="/theCakePalette/images/FrontPagePhotos/cake1-large.jpg" alt="">
+				</picture>
+				<!-- <div class="pause">
+					<img src="/theCakePalette/images/pause.png">
+				</div> -->
+		    </div>
+		    <div class="slide" id="slide2">
+		    	<picture>
+					<source media="(max-width: 640px)" sizes="(max-width: 640px) 100vw"
+					srcset="/theCakePalette/images/FrontPagePhotos/cake2-mobile.jpg 638w">
+
+					<source media="(max-width: 960px)" sizes="(max-width: 960px) 100vw"
+					srcset="/theCakePalette/images/FrontPagePhotos/cake2-large.jpg 1020w">
+
+					<source media="(min-width: 961px)" sizes="100vw 70vw"
+					srcset="/theCakePalette/images/FrontPagePhotos/cake2-large.jpg 1020w">
+				
+					<img src="/theCakePalette/images/FrontPagePhotos/cake2-large.jpg" alt="">
+				</picture>
+				<!-- <div class="pause">
+					<img src="/theCakePalette/images/pause.png">
+				</div> -->
+			</div>
+		    <div class="slide" id="slide3">
+		    	<picture>
+					<source media="(max-width: 640px)" sizes="(max-width: 640px) 100vw"
+					srcset="/theCakePalette/images/FrontPagePhotos/cake3-mobile.jpg 640w">
+
+					<source media="(max-width: 960px)" sizes="(max-width: 960px) 100vw"
+					srcset="/theCakePalette/images/FrontPagePhotos/cake3-large.jpg 1024w">
+
+					<source media="(min-width: 961px)" sizes="100vw 70vw"
+					srcset="/theCakePalette/images/FrontPagePhotos/cake3-large.jpg 1024w">
+				
+					<img src="/theCakePalette/images/FrontPagePhotos/cake3-large.jpg" alt="">
+				</picture>
+			</div>
+		    <div class="slide" id="slide4">
+				<picture>
+					<source media="(max-width: 640px)" sizes="(max-width: 640px) 100vw"
+					srcset="/theCakePalette/images/FrontPagePhotos/cake4-mobile.jpg 640w">
+
+					<source media="(max-width: 960px)" sizes="(max-width: 960px) 100vw"
+					srcset="/theCakePalette/images/FrontPagePhotos/cake4-large.jpg 1024w">
+
+					<source media="(min-width: 961px)" sizes="100vw 70vw"
+					srcset="/theCakePalette/images/FrontPagePhotos/cake4-large.jpg 1024w">
+				
+					<img src="/theCakePalette/images/FrontPagePhotos/cake4-large.jpg" alt="">
+				</picture>
+		    </div>
+		    <div class="slide" id="slide5">
+		    	<picture>
+					<source media="(max-width: 640px)" sizes="(max-width: 640px) 100vw"
+					srcset="/theCakePalette/images/FrontPagePhotos/cake5-mobile.jpg 640w">
+
+					<source media="(max-width: 960px)" sizes="(max-width: 960px) 100vw"
+					srcset="/theCakePalette/images/FrontPagePhotos/cake5-large.jpg 1024w">
+
+					<source media="(min-width: 961px)" sizes="100vw 70vw"
+					srcset="/theCakePalette/images/FrontPagePhotos/cake5-large.jpg 1024w">
+				
+					<img src="/theCakePalette/images/FrontPagePhotos/cake5-large.jpg" alt="">
+				</picture>
+		    </div>
+		    <div class="slide" id="slide6">
+		    	<picture>
+					<source media="(max-width: 640px)" sizes="(max-width: 640px) 100vw"
+					srcset="/theCakePalette/images/FrontPagePhotos/cake6-mobile.jpg 640w">
+
+					<source media="(max-width: 960px)" sizes="(max-width: 960px) 100vw"
+					srcset="/theCakePalette/images/FrontPagePhotos/cake6-large.jpg 1024w">
+
+					<source media="(min-width: 961px)" sizes="100vw 70vw"
+					srcset="/theCakePalette/images/FrontPagePhotos/cake6-large.jpg 1024w">
+				
+					<img src="/theCakePalette/images/FrontPagePhotos/cake6-large.jpg" alt="">
+				</picture>
+		    </div>
+		</div>
+	</div>
+	<div class="content">
+		<hr>
+		<br>
+		<p class="welcome-head">WELCOME &nbsp; to &nbsp; THE CAKE PALETTE</p>
+		<p class="welcome-content">We specialise in high quality wedding cakes, anniversary cakes, engagement cakes, birthday cakes and all custom celebration cakes, meticulously designed and handcrafted in our home kitchen for long hours and uniquely tailored for our clients. All baked-goods by order only and delivery available across Lonavala. Please fill the form on the Contact Us page to get in touch with us.</p>
+		<br>
+		<hr>
+		<ul class="social-links">
+			<li>
+				<a href="https://www.facebook.com/thecakepalettebyzainab/" rel="noopener noreferrer" target="_blank"><img src="/theCakePalette/images/facebook-icon.png" width="40px" height="auto" alt="facebook-icon"></a>
+				<a href="https://www.instagram.com/thecakepalette.lonavala/" rel="noopener noreferrer" target="_blank"><img src="/theCakePalette/images/instagram-icon.png" width="40px" height="auto" alt="instagram-icon"></a>
+				<a href="https://www.tripadvisor.in/Restaurant_Review-g608474-d12548598-Reviews-The_Cake_Palette-Lonavala_Pune_District_Maharashtra.html" rel="noopener noreferrer" target="_blank"><img src="/theCakePalette/images/tripadvisor-icon.png" width="40px" height="auto" alt="tripadvisor-icon"></a>
+				<a href="https://www.zomato.com/pune/the-cake-palette-lonavala" rel="noopener noreferrer" target="_blank"><img src="/theCakePalette/images/zomato-icon.png" width="40px" height="auto" alt="zomato-icon"></a>
+			</li>
+		</ul>
+		<!-- <ul class="reviews">
+			<script src="https://googlereviews.cws.net/google-reviews.js"></script><br />
+			<script>load_google_reviews("ChIJVVVVlaMB6DsRMPlS0H29wTc");</script>
+		</ul> -->
+	</div>
+	<div class="footer">
+		<ul class="foot1 not-mobile">
+			<li><a href="/theCakePalette/index.html">HOME</a></li>
+			<li><a href="/theCakePalette/html/aboutUs.html">ABOUT US</a></li>
+			<li><a href="/theCakePalette/html/cakes&bakes.html">OUR CAKES & BAKES</a></li>
+			<li><a href="#">MENU</a></li>
+			<li><a href="#">BLOG</a></li>
+			<li><a href="/theCakePalette/html/contact.html">CONTACT</a></li>
+			<li><a href="#">FAQs</a></li>
+		</ul>
+		<ul class="only-mobile">
+			<li style="font-size: 1.1em">
+				<img src="/theCakePalette/images/menu-open-button-footer.png" width="20px" height="auto" alt="menu-icon"><br>
+				<a href="/theCakePalette/index.html">HOME</a>&nbsp;
+				<a href="/theCakePalette/html/aboutUs.html">ABOUT US</a>&nbsp;
+				<a href="/theCakePalette/html/cakes&bakes.html">OUR CAKES & BAKES</a>
+				<br>
+				<a href="#">MENU</a>&nbsp;
+				<a href="#">BLOG</a>&nbsp;
+				<a href="/theCakePalette/html/contact.html">CONTACT</a>&nbsp;
+				<a href="#">FAQs</a>
+			</li>
+			<hr>
+		</ul>
+		<ul class="foot2">
+			<li><a href="https://www.google.com/maps/search/?api=1&query=The+Cake+Palette%2CLonavala%2CMahrashtra" rel="noopener noreferrer" target="_blank"><img src="/theCakePalette/images/map-icon.png" width="25px" height="auto" alt="map-icon"><br><b>BARA BUNGLOW ROAD, RAO COLONY, <br>LONAVALA, MAHRASHTRA - 410401</b></a></li>
+			<hr>
+			<li><a href="mailto:thecakepalettebyzainab@gmail.com?subject=Query-TheCakePalette" rel="noopener noreferrer"><img src="/theCakePalette/images/mail-icon.png" width="20px" height="auto" alt="mail-icon"><br>THECAKEPALETTEBYZAINAB@GMAIL.COM</a></li>
+		</ul>
+		<ul class = "only-mobile">
+			<hr>
+			<li ><a href="/theCakePalette/html/privacyPolicy.html">PRIVACY POLICY&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a><a>|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&copy  THE CAKE PALETTE - LONAVALA - 2018</a></li>
+		</ul>
+		<ul class="foot not-mobile">
+			<br><br>
+			<li><a href="/theCakePalette/html/privacyPolicy.html">PRIVACY POLICY</a></li>
+			<li><a href="sitemap.xml">SITEMAP</a></li>
+			<li><a>&copy  THE CAKE PALETTE - LONAVALA - 2018</a></li>
+		</ul>	
+	</div>
+</body>
+</html>

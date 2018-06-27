@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact The Cake Palette in Lonavala</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="/theCakePalette/js/contact.js"></script>
+	<link rel="stylesheet" href="/theCakePalette/css/default.css">
+	<link rel="stylesheet" href="/theCakePalette/css/main.css">
+	<link rel="stylesheet" href="/theCakePalette/css/contact.css">
+	<link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'>
+	<link href='https://fonts.googleapis.com/css?family=Oregano' rel='stylesheet'>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	<div class="header">
+		<div id="logo">
+			<img src="/theCakePalette/images/theCakePaletteLogo.png" alt="The Cake Palette Lonavala logo">
+		</div>
+		<div class="nav">
+			<a href="/theCakePalette/index.html">HOME</a>
+			<a href="/theCakePalette/html/aboutUs.html">ABOUT US</a>
+			<a href="/theCakePalette/html/cakes&bakes.html">OUR CAKES & BAKES</a>
+			<a href="#">MENU</a>
+			<a href="#">BLOG</a>
+			<a href="/theCakePalette/html/contact.html">CONTACT</a>
+			<a href="#">FAQs</a>
+		</div>
+		<!-- Mobile -->
+		<div class="overlay">
+			<div class="wrap">
+				<ul class="wrap-nav">
+					<li><a href="/theCakePalette/index.html">HOME</a></li>
+					<li><a href="/theCakePalette/html/aboutUs.html">ABOUT US</a></li>
+					<li><a href="/theCakePalette/html/cakes&bakes.html">OUR CAKES & BAKES</a></li>
+					<li><a href="#">MENU</a></li>
+					<li><a href="#">BLOG</a></li>
+					<li><a href="/theCakePalette/html/contact.html">CONTACT</a></li>
+					<li><a href="#">FAQs</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="button">
+			<a  class="btn-open" href="#"><img src="/theCakePalette/images/menu-open-button1.png" width="25px" height="auto" alt="thecakepalette lonavala menu open button"></a>
+			<a class="btn-close" href="#"><img src="/theCakePalette/images/menu-close-button2.png" width="25px" height="auto" alt="thecakepalette lonavala menu close button"></a>
+		</div>
+		<!-- Mobile End -->
+	</div>
+	<div class="content-about">
+		<hr>
+		<br>
+		<div class="about-image"><img src="/theCakePalette/images/contact-cookies-thecakepalette-lonavala.jpg" alt="Fresh Chocolate Chip Cookies in Lonavala" style="object-fit: contain;"></div>
+		<p class="about-head">CONTACT US</p>
+		<p class="about-content">
+			thecakepalettebyzainab@gmail.com
+			<br>
+			We want to hear from you, write us:
+			<div align="center">
+			<form id = "contact-lonavala" method="POST" action="#">
+				<input type="text" name="uname" placeholder="Full Name">
+				<input type="email" name="email" placeholder="Email">
+				<input type="tel" name="phone" placeholder="Phone">
+				<input type="text" name="where" placeholder="Where did you come to know about us?">
+				<input type="text" name="subject" placeholder="Subject">
+				<textarea type="text" name="message" placeholder="Your message or query!" rows="3"></textarea><br>
+				<input type="button" name="submit" value="Mail It." >
+			</form></div>
+		</p>
+		<br>
+		<div class="address">
+			<p>Bara Bunglow Road, Rao Colony, Lonavala, Mahrashtra - 410401</p>
+			<div id="map">
+			</div>
+			<script>
+				function initMap() {
+					var test= {lat: 18.750261, lng: 73.415877};
+					var map = new google.maps.Map(document.getElementById('map'), {
+						zoom: 17,
+						center: test
+					});
+					var marker = new google.maps.Marker({
+					  	position: test,
+					 	map: map
+					});
+				}
+				</script>
+				<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDMS0rqzhyS-LycNIz-z92BscA63YRTRF0&callback=initMap">
+				</script>
+		</div>
+		<br><br>
+		<hr>
+		<ul class="social-links">
+			<li>
+				<a href="https://www.facebook.com/thecakepalettebyzainab/" rel="noopener noreferrer" target="_blank"><img src="/theCakePalette/images/facebook-icon.png" width="40px" height="auto" alt="facebook-icon"></a>
+				<a href="https://www.instagram.com/thecakepalette.lonavala/" rel="noopener noreferrer" target="_blank"><img src="/theCakePalette/images/instagram-icon.png" width="40px" height="auto" alt="instagram-icon"></a>
+				<a href="https://www.tripadvisor.in/Restaurant_Review-g608474-d12548598-Reviews-The_Cake_Palette-Lonavala_Pune_District_Maharashtra.html" rel="noopener noreferrer" target="_blank"><img src="/theCakePalette/images/tripadvisor-icon.png" width="40px" height="auto" alt="tripadvisor-icon"></a>
+				<a href="https://www.zomato.com/pune/the-cake-palette-lonavala" rel="noopener noreferrer" target="_blank"><img src="/theCakePalette/images/zomato-icon.png" width="40px" height="auto" alt="zomato-icon"></a>
+			</li>
+		</ul>
+		<!-- <ul class="reviews">
+			<script src="https://googlereviews.cws.net/google-reviews.js"></script><br />
+			<script>load_google_reviews("ChIJVVVVlaMB6DsRMPlS0H29wTc");</script>
+		</ul> -->
+	</div>
+	<div class="footer">
+		<ul class="foot1 not-mobile">
+			<li><a href="/theCakePalette/index.html">HOME</a></li>
+			<li><a href="/theCakePalette/html/aboutUs.html">ABOUT US</a></li>
+			<li><a href="/theCakePalette/html/cakes&bakes.html">OUR CAKES & BAKES</a></li>
+			<li><a href="#">MENU</a></li>
+			<li><a href="#">BLOG</a></li>
+			<li><a href="/theCakePalette/html/contact.html">CONTACT</a></li>
+			<li><a href="#">FAQs</a></li>
+		</ul>
+		<ul class="only-mobile">
+			<li style="font-size: 1.1em">
+				<img src="/theCakePalette/images/menu-open-button-footer.png" width="20px" height="auto" alt="thecakepalette-lonavala-menu-icon"><br>
+				<a href="/theCakePalette/index.html">HOME</a>&nbsp;
+				<a href="/theCakePalette/html/aboutUs.html">ABOUT US</a>&nbsp;
+				<a href="/theCakePalette/html/cakes&bakes.html">OUR CAKES & BAKES</a>
+				<br>
+				<a href="#">MENU</a>&nbsp;
+				<a href="#">BLOG</a>&nbsp;
+				<a href="/theCakePalette/html/contact.html">CONTACT</a>&nbsp;
+				<a href="#">FAQs</a>
+			</li>
+			<hr>
+		</ul>
+		<ul class="foot2">
+			<li><a href="https://www.google.com/maps/search/?api=1&query=The+Cake+Palette%2CLonavala%2CMahrashtra" rel="noopener noreferrer" target="_blank"><img src="/theCakePalette/images/map-icon.png" width="25px" height="auto" alt="The Cake Palette Lonavala map-icon"><br><b>BARA BUNGLOW ROAD, RAO COLONY, <br>LONAVALA, MAHRASHTRA - 410401</b></a></li>
+			<hr>
+			<li><a href="mailto:thecakepalettebyzainab@gmail.com?subject=Query-TheCakePalette" rel="noopener noreferrer"><img src="/theCakePalette/images/mail-icon.png" width="20px" height="auto" alt="The Cake Palette Lonavala mail-icon"><br>THECAKEPALETTEBYZAINAB@GMAIL.COM</a></li>
+		</ul>
+		<ul class = "only-mobile">
+			<hr>
+			<li ><a href="/theCakePalette/html/privacyPolicy.html">PRIVACY POLICY&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a><a>|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&copy  THE CAKE PALETTE - LONAVALA - 2018</a></li>
+		</ul>
+		<ul class="foot not-mobile">
+			<br><br>
+			<li><a href="/theCakePalette/html/privacyPolicy.html">PRIVACY POLICY</a></li>
+			<li><a href="#">SITEMAP</a></li>
+			<li><a>&copy  THE CAKE PALETTE - LONAVALA - 2018</a></li>
+		</ul>	
+	</div>
+</body>
+</html>
