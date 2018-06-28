@@ -44,7 +44,10 @@ hr{
 	.content-about .social-links{
 		padding-top: 5%;
 		padding-bottom: 2%;
-		width: 100%;
+		max-width: 300px;
+		position: relative;
+		margin-left: -205px;
+		left: 50%;
 	}
 	.content-about .social-links li a{
 		padding-left: 10%;	

@@ -65,12 +65,17 @@ hr{
 	}
 	.content .social-links{
 		padding-top: 5%;
-		padding-bottom: 5%;
-		margin-bottom: 15%;
-		width: 100%;
+		padding-bottom: 2%;
+		max-width: 300px;
+		position: relative;
+		margin-left: -205px;
+		left: 50%;
 	}
 	.content .social-links li a{
 		padding-left: 10%;	
+	}
+	.footer{
+		margin-top: 15%;
 	}
 }
 
@@ -134,23 +139,10 @@ hr{
 		padding-left: 10%;	
 	}
 	.footer{
-		margin-top: 30%;
+		margin-top: 28%;
 	}
 }
 
 
-
-/*	.copyright{
-		position: relative;
-		min-width: 100%;
-		text-align: center;
-		background-color: #8ea7b7;
-	}
-	.copyright li{
-		padding: 0.4%;
-		font-family: 'Oregano';
-		color: #640032;
-		font-size: 0.7em;
-	}*/
 /*@media (min-width:481px) and (max-width:640px){ }/* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
 /*@media (min-width:1025px) {} /* big landscape tablets, laptops, and desktops */ 
