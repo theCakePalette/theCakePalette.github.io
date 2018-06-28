@@ -1,13 +1,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>https://www.thecakepalette.com/contact</loc>
+<loc>https://www.thecakepalette.com/contact.html</loc>
 <priority>0.5</priority>
 <lastmod>2018-04-04</lastmod>
 <changefreq>monthly</changefreq>
 </url>
 <url>
-<loc>https://www.thecakepalette.com/gallery</loc>
-<priority>0.5</priority>
+<loc>https://www.thecakepalette.com/cakes&bakes.html</loc>
+<priority>0.8</priority>
 <lastmod>2018-04-04</lastmod>
 <changefreq>monthly</changefreq>
 </url>
@@ -18,13 +18,13 @@
 <changefreq>monthly</changefreq>
 </url>
 <url>
-<loc>https://www.thecakepalette.com/aboutus</loc>
+<loc>https://www.thecakepalette.com/aboutUs.html</loc>
 <priority>0.5</priority>
 <lastmod>2018-04-04</lastmod>
 <changefreq>monthly</changefreq>
 </url>
 <url>
-<loc>https://www.thecakepalette.com/faq</loc>
+<loc>https://www.thecakepalette.com/faq.html</loc>
 <priority>0.5</priority>
 <lastmod>2018-04-04</lastmod>
 <changefreq>monthly</changefreq>
