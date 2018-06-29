@@ -4,7 +4,7 @@
 	set_error_handler("var_dump");
 
 	
-	    $recipient="zahabiya_96@yahoo.com";
+	    $recipient="thecakepalettebyzainab@gmail.com";
 	    $subject='!Website Query! '.$_POST["subject"];
 	    $sender=$_POST["uname"];
 	    $senderEmail=$_POST["email"];
@@ -12,8 +12,8 @@
 	    $where=$_POST["where"];
 	    $message=$_POST["message"];
 
-	    $headers = array("From: zahabiyamhw@gmail.com",
-					    "Reply-To: zahabiyamhw@gmail.com",
+	    $headers = array("From: zahabiya_96@yahoo.com",
+					    "Reply-To: zahabiya_96@yahoo.com",
 					    "X-Mailer: PHP/" . PHP_VERSION
 					);
 		$headers = implode("\r\n", $headers);
