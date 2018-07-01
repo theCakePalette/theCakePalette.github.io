@@ -1,9 +1,7 @@
-.gallery {
-    margin: 10px 10px;
-    padding: 10px 10px;
-}
 div.gallery {
     border: 1px solid #ccc;
+    margin: 10px 10px;
+    padding: 10px 10px;
 }
 div.gallery:hover {
     border: 1px solid #355b4f;
@@ -11,6 +9,19 @@ div.gallery:hover {
 div.gallery img {
     width: 100%;
     height: auto;
+}
+div.gallery span{
+    display: none; 
+    position: absolute; 
+    bottom: 0; 
+    left: 0; 
+    right: 0; 
+    background: #333; 
+    color: #fff; 
+    z-index: 4;
+}
+div.gallery:hover span {
+    display: block; 
 }
 .clearfix:after {
     content: "";
@@ -126,13 +137,13 @@ hr{
         text-align: center;
         padding-top: 2%;
     }
-    .gallery {
-        float: left;
-        width: 25%;
-    }
     .content-gallery .gallery-content{
         margin-top: 4%;
         margin-left: 82.5px;
+    }
+    .gallery {
+        float: left;
+        width: 25%;
     }
     .content-gallery .social-links{
         padding-top: 5%;

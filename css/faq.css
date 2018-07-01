@@ -1,0 +1,162 @@
+hr{
+	height: 1px;
+	color: #c0d8e8;
+	border-color: #c0d8e8;
+	background-color: #c0d8e8;
+	border: none;
+}
+.faq-panel-head:hover{
+	cursor: pointer;
+}
+.faq-panel-content{
+	display: none;
+}
+.faq-panel .faq-panel-head{
+	font-family: 'Lato';
+	font-weight: bold;
+	letter-spacing: 0.1em;
+	padding: 1%;
+	color: #640032;
+}
+.faq-panel .faq-panel-content{
+	font-family: 'Lato';
+	letter-spacing: 0.05em;
+	padding: 2%;
+	color: #640032;
+}
+@media (min-width:320px) and (max-width: 640px) { /* smartphones, iPhone, portrait 480x320 phones */
+	.content-faq{
+		position: relative;
+		top: 25px;
+		margin: 6%;
+	}
+	hr{
+		margin: auto;
+	}
+	.content-faq .faq-head{
+		font-family: 'Lato';
+		font-size: 1.3em;
+		font-weight: bold;
+		text-align: center;
+		padding: 1%;
+		letter-spacing: 0.3em;
+		color: #355b4f;
+		width: 100%;
+	}
+	.content-faq .faq-content{
+		margin-top: 6%;
+	}
+	.faq-panel{
+		margin-top: 4%;
+		margin-left: 3%;
+		margin-right: 3%;
+	}
+	.faq-panel .faq-panel-content{
+		font-size: 0.9em;
+	}
+	.content-faq .social-links{
+		padding-top: 5%;
+		padding-bottom: 2%;
+		max-width: 300px;
+		position: relative;
+		margin-left: -205px;
+		left: 50%;
+	}
+	.content-faq .social-links li a{
+		padding-left: 10%;	
+	}
+	.footer{
+		margin-top: 8%;
+	}
+}
+
+@media (min-width:641px) and (max-width:960px) { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ 
+	.content-faq{
+		position: relative;
+		top: 25px;
+		margin: 3%;
+	}
+	hr{
+		margin: auto;
+	}
+	.content-faq .faq-head{
+		font-family: 'Lato';
+		font-size: 2em;
+		font-weight: bold;
+		letter-spacing: 0.3em;
+		color: #355b4f;
+		text-align: center;
+		padding-top: 2%;
+	}
+	.content-faq .faq-content{
+		margin-top: 5%;
+	}
+	.faq-panel{
+		margin-top: 4%;
+		margin-left: 3%;
+		margin-right: 3%;
+	}
+	.faq-panel .faq-panel-content{
+		font-size: 0.9em;
+	}
+	.content-faq .social-links{
+		max-width: 400px;
+		position: relative;
+		margin-left: -200px;
+		left: 50%;
+		padding-top: 4%;
+	}
+	.content-faq .social-links li a{
+		padding-left: 7%;	
+	}
+	.footer{
+		margin-top: 5%;
+	}
+}
+
+@media (min-width:961px){ /* tablet, landscape iPad, lo-res laptops and desktops */ 
+	.content-faq{
+		position: relative;
+		top: 340px;
+		margin: auto;
+		width: 900px;
+	}
+	hr{
+		width: 100%;
+	}
+	.content-faq .faq-head{
+		font-family: 'Lato';
+		font-size: 2em;
+		font-weight: bold;
+		letter-spacing: 0.2em;
+		color: #355b4f;
+		text-align: center;
+		padding-top: 2%;
+	}
+	.content-faq .faq-content{
+		margin-top: 5%;
+	}
+	.faq-panel{
+		position: relative; 
+		max-width: 800px;
+		margin: auto;
+		margin-top: 4%;
+	}
+	.faq-panel .faq-panel-head{
+		font-size: 1em;
+	}
+	.faq-panel .faq-panel-content{
+		font-size: 0.9em;
+	}
+	.content-faq .social-links{
+		padding-top: 5%;
+		padding-bottom: 2%;
+		padding-left: 155px;
+	}
+	.content-faq .social-links li a{
+		padding-left: 11%;	
+	}
+	.footer{
+		margin-top: 28%;
+	}
+}
