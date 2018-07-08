@@ -1,4 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+<loc>https://www.thecakepalette.com/</loc>
+<priority>1.0</priority>
+<lastmod>2018-04-04</lastmod>
+<changefreq>monthly</changefreq>
+</url>
 <url>
 <loc>https://www.thecakepalette.com/html/contact.html</loc>
 <priority>0.5</priority>
@@ -35,10 +42,5 @@
 <lastmod>2018-04-04</lastmod>
 <changefreq>monthly</changefreq>
 </url>
-<url>
-<loc>https://www.thecakepalette.com/</loc>
-<priority>1.0</priority>
-<lastmod>2018-04-04</lastmod>
-<changefreq>monthly</changefreq>
-</url>
+
 </urlset>
