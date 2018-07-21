@@ -4,6 +4,11 @@ body{
 	background-repeat: no-repeat;
 	background-position: top;
 }
+.closed{
+	text-align: center;
+	font-family: 'Lato';
+	color: #355b4f;
+}
 
 @media (max-width: 640px) { /* smartphones, iPhone, portrait 480x320 phones */
 	body{
@@ -132,6 +137,9 @@ body{
 		width: 159px;
 		height: auto;
 	}
+	.closed{
+		margin-top: 2%;
+	}
 	.nav{
 		position: relative;
 		overflow: hidden;
@@ -203,6 +211,10 @@ body{
 	body{
 		background-image: url("/theCakePalette.github.io/images/background.jpg");
 		min-height: 100%;
+	}
+	.closed{
+		position: relative;
+		top: 320px;
 	}
 	#logo{
 		position: absolute;

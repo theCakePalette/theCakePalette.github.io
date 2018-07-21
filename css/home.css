@@ -82,6 +82,7 @@ hr{
 @media (min-width:641px) and (max-width:960px) { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ 
 	#slider{
 		margin: 3%;
+		margin-top: 5%;
 	}
 	#slider img{
 		max-width: 100%;
@@ -113,10 +114,14 @@ hr{
 		position: absolute;
 		margin-left: -325px;
 		left: 50%;
-		top: 340px;
+		top: 380px;
 	}
 	#slider img{
 		width: 650px;
+	}
+	.closed{
+		position: relative;
+		top: 320px;
 	}
 	.content{
 		position: relative;
