@@ -27,8 +27,8 @@ hr{
 }
 .welcome-head{
 	text-align: center;
-	font-family: 'Oregano';
 	color: #640032;
+	letter-spacing: 0.1em;
 }
 .welcome-content{
 	text-align: center;

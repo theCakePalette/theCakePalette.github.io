@@ -143,7 +143,6 @@ body {
 	}
 	.sidenav {
 	    width: 170px;
-	    margin-top: 4%;
 	    position: relative;
 	    background: #640032;
 	    float: left;
@@ -174,6 +173,7 @@ body {
 		font-size: 1.5em;
 		text-align: center;
 		letter-spacing: 0.07em;
+		margin-top: 1%;
 	}
 	.side-head hr{
 		width: 300px;
@@ -187,6 +187,31 @@ body {
 		text-align: center;
 		color: #640032;
 	}
+	.under-menu img{
+		margin-top: 2%;
+		float: left;
+		width: 150px;
+		height: auto; 
+		padding: 1%;
+	}
+	.under-menu-head{
+		margin-top: 3%;
+		float: left;
+		font-size: 1.3em;
+		font-weight: bold;
+		letter-spacing: 0.1em;
+	}
+	.under-menu-price{
+		margin-top: 4%;
+		float: right;
+	}
+	.under-menu-content{
+		margin-top: 5%;
+		text-align: left;
+	}
+	.under-menu hr{
+		margin-top: 5%;
+	}
 	.content-menu .social-links{
 		padding-top: 5%;
 		padding-bottom: 2%;
@@ -194,6 +219,9 @@ body {
 	}
 	.content-menu .social-links li a{
 		padding-left: 10%;	
+	}
+	.cover{
+		object-fit: cover;
 	}
 	.footer{
 		margin-top: 34%;
