@@ -79,8 +79,9 @@ hr{
 		font-size: 2em;
 		color: #355b4f;
 		font-weight: bold;
-		width: 200px;
-		margin-left: -100px;
+		width: 300px;
+		letter-spacing: 0.3em;
+		margin-left: -150px;
 		left: 50%;
 	}
 	hr{

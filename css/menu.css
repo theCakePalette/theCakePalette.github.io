@@ -8,20 +8,44 @@ hr{
 body {
     font-family: "Lato", sans-serif;
 }
+.cover{
+	object-fit: cover;
+}
 
-
-
-@media (min-width:320px) and (max-width: 640px) { /* smartphones, iPhone, portrait 480x320 phones */
+@media (max-width: 640px) { /* smartphones, iPhone, portrait 480x320 phones */
+	.sidenav{
+		font-size: 1.5em;
+		margin-top: 4%;
+		padding: 5%;
+	}
+	.sidenav hr{
+		margin-top: 3%;
+		margin-bottom: 5%;
+	}
+	.sidenav a{
+		color: #640032;
+	}
+	.submenu{
+		display: none;
+	}
+	#cake-celebration-mobile, #cake-custom-mobile, #cake-gourmet-mobile, #cake-tea-mobile, #cupcake-mobile, #cookie-mobile, #tart-mobile, #brownie-mobile, #creampuff-mobile, #cakepop-mobile{
+		display: none;
+		font-family: 'Lato';
+		font-size: 0.7em;
+		padding-top: 4%;
+		padding-left: 2%;
+		padding-right: 2%;
+		color: #640032;
+		width: 100%;
+		text-align: center;
+	}
+	#cake-celebration, #cake-custom, #cake-gourmet, #cake-tea, #cupcake, #cookie, #tart, #brownie, #creampuff, #cakepop{
+		display: none;
+	}
 	.content-menu{
 		position: relative;
 		top: 25px;
 		margin: 3%;
-	}
-	.content-menu .menu-image img{
-		padding-top: 4%;
-		position: relative;
-		height: 300px;
-		width: 100%;
 	}
 	.content-menu .menu-head{
 		padding-top: 5%;
@@ -32,19 +56,34 @@ body {
 		width: 100%;
 		text-align: center;
 	}
+	.menu-mobile{
+		margin-bottom: 2%;
+	}
+	.menu-mobile .under-menu img{
+		margin-top: 2%;
+		width: 150px;
+		height: auto; 
+		padding: 1%;
+	}
+	.menu-mobile .under-menu-head{
+		margin-top: 3%;
+		font-size: 1.3em;
+		font-weight: bold;
+		letter-spacing: 0.1em;
+	}
+	.menu-mobile .under-menu-price{
+		margin-top: 4%;
+	}
+	.menu-mobile .under-menu-content{
+		margin-top: 5%;
+		text-align:center;
+		color: #355b4f;
+	}
+	.menu-mobile .under-menu hr{
+		margin-top: 5%;
+	}
 	hr{
 		margin: auto;
-	}
-	.content-menu .menu-content{
-		font-family: 'Lato';
-		font-size: 0.9em;
-		padding-top: 4%;
-		padding-left: 2%;
-		padding-right: 2%;
-		color: #640032;
-		width: 100%;
-		text-align: center;
-		letter-spacing: 0.07em;
 	}
 	.content-menu .social-links{
 		padding-top: 5%;
@@ -63,46 +102,95 @@ body {
 }
 
 @media (min-width:641px) and (max-width:960px) { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ 
+	#cake-celebration-mobile, #cake-custom-mobile, #cake-gourmet-mobile, #cake-tea-mobile, #cupcake-mobile, #cookie-mobile, #tart-mobile, #brownie-mobile, #creampuff-mobile, #cakepop-mobile{
+		display: none;
+		font-family: 'Lato';
+		font-size: 0.7em;
+		padding-top: 4%;
+		padding-left: 2%;
+		padding-right: 2%;
+		color: #640032;
+		width: 100%;
+		text-align: center;
+	}
+	#cake-celebration, #cake-custom, #cake-gourmet, #cake-tea, #cupcake, #cookie, #tart, #brownie, #creampuff, #cakepop{
+		display: none;
+	}
+	.sidenav{
+		font-size: 1.5em;
+		margin-top: 4%;
+		padding: 5%;
+	}
+	.sidenav hr{
+		margin-top: 3%;
+		margin-bottom: 5%;
+	}
+	.sidenav a{
+		color: #640032;
+	}
+	.submenu{
+		display: none;
+	}
 	.content-menu{
 		position: relative;
 		top: 25px;
 		margin: 3%;
 		width: auto;
 	}
-	.content-menu .menu-image img{
-		position: relative;
-		width: 440px;
-		height: auto;
-		margin-left: -220px;
-		left: 50%;
-		padding-top: 4%;
-	}
 	.content-menu .menu-head{
 		position: relative;
-		margin-top: 5%;
+		margin-top: 3%;
 		font-family: 'Lato';
 		font-size: 2em;
 		color: #355b4f;
 		font-weight: bold;
-		width: 200px;
-		margin-left: -100px;
-		left: 50%;
+		letter-spacing: 0.2em;
+		width: 550px;
+		margin: auto;
+	}
+	.menu-mobile{
+		margin-bottom: 2%;
+	}
+	.menu-mobile .under-menu img{
+		margin-top: 2%;
+		float: left;
+		width: 150px;
+		height: auto; 
+		padding: 1%;
+	}
+	#cake-tea-mobile .menu-mobile .under-menu-head{
+		margin-top: 3%;
+		font-size: 1.3em;
+		font-weight: bold;
+		letter-spacing: 0.1em;
+		text-align: center;
+	}
+	#cake-tea-mobile .menu-mobile .under-menu-price{
+		margin-top: 4%;
+		text-align: center;
+	}
+	#cake-celebration-mobile .menu-mobile .under-menu-head, #cake-custom-mobile .menu-mobile .under-menu-head, #cake-gourmet-mobile .menu-mobile .under-menu-head, #cupcake-mobile .menu-mobile .under-menu-head, #cookie-mobile .menu-mobile .under-menu-head, #tart-mobile .menu-mobile .under-menu-head, #brownie-mobile .menu-mobile .under-menu-head, #creampuff-mobile.menu-mobile .under-menu-head, #cakepop-mobile .menu-mobile .under-menu-head{
+		margin-top: 3%;
+		float: left;
+		font-size: 1.3em;
+		font-weight: bold;
+		letter-spacing: 0.1em;
+	}
+	#cake-celebration-mobile .menu-mobile .under-menu-price, #cake-custom-mobile .menu-mobile .under-menu-price, #cake-gourmet-mobile .menu-mobile .under-menu-price, #cupcake-mobile .menu-mobile .under-menu-price, #cookie-mobile .menu-mobile .under-menu-price, #tart-mobile .menu-mobile .under-menu-price, #brownie-mobile .menu-mobile .under-menu-price, #creampuff-mobile .menu-mobile .under-menu-price, #cakepop-mobile .menu-mobile .under-menu-price{
+		margin-top: 4%;
+		float: right;
+	}
+	
+	.menu-mobile .under-menu-content{
+		padding-top: 10%;
+		text-align: left;
+		color: #355b4f;
+	}
+	.menu-mobile .under-menu hr{
+		margin-top: 7%;
 	}
 	hr{
 		margin: auto;
-	}
-	.content-menu .menu-content{
-		position: relative;
-		font-family: 'Lato';
-		font-size: 0.9em;
-		padding-top: 2%;
-		margin-bottom: 3%;
-		letter-spacing: 0.07em;
-		text-align: center;
-		color: #640032;
-		width: 440px;
-		margin-left: -220px;
-		left: 50%;
 	}
 	.content-menu .social-links{
 		padding-top: 5%;
@@ -119,7 +207,10 @@ body {
 }
 
 @media (min-width:961px){ /* tablet, landscape iPad, lo-res laptops and desktops */ 
-	#cake-custom, #cake-gourmet, #cake-tea, #cupcake, #cookie, #tart, #brownie, #creampuff, #cakepop{
+	#cake-custom, #cake-gourmet, #cake-tea, #cupcake, #cookie, #tart, #brownie, #creampuff, #cakepop, .menu-mobile{
+		display: none;
+	}
+	#cake-celebration-mobile, #cake-custom-mobile, #cake-gourmet-mobile, #cake-tea-mobile, #cupcake-mobile, #cookie-mobile, #tart-mobile, #brownie-mobile, #creampuff-mobile, #cakepop-mobile{
 		display: none;
 	}
 	.content-menu{
@@ -142,17 +233,21 @@ body {
 		width: 100%;
 	}
 	.sidenav {
-	    width: 170px;
+	    width: 180px;
 	    position: relative;
 	    background: #640032;
 	    float: left;
 	    overflow-x: hidden;
 	    padding: 8px 0;
 	}
+	.sidenav hr{
+		display: none;
+	}
 	.sidenav a{
 	    text-decoration: none;
 	    letter-spacing: 0.07em;
 	    color: #c0d8e8;
+	    margin-bottom: 2%;
 	}
 	.sidenav .mainmenu, .sidenav .mainmenusub {
 		padding: 8px 8px 8px 16px;
@@ -160,9 +255,10 @@ body {
 	    display: block;
 	}
 	.submenu{
-		padding: 8px 8px 8px 30px;
+		padding: 8px 8px 8px 25px;
 		font-size: 0.9em;
 		display: none;
+		letter-spacing: 0em;
 	}
 	.sidenav a:hover {
 	    color: #355b4f;
@@ -219,9 +315,6 @@ body {
 	}
 	.content-menu .social-links li a{
 		padding-left: 10%;	
-	}
-	.cover{
-		object-fit: cover;
 	}
 	.footer{
 		margin-top: 34%;
