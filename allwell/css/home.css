@@ -1,0 +1,81 @@
+body{
+	background-image: url('../image/hardware-1.jpg');
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: left;
+}
+
+.menu{
+	position: relative;
+	font-family: 'Varela Round' , sans-serif;
+	text-align: center;
+	letter-spacing: 0.2em;
+}
+.wrap-menu{
+	background-color: #000;
+	margin-top: -1%;
+	padding-top: 3%;
+	padding-bottom: 3%;
+	display: none;
+}
+.wrap-menu li a{
+	color: #fff;
+	line-height: 2;
+}
+.button .btn-open, .button .btn-close {
+	display: none;
+}
+hr{
+	height: 2px;
+	color: #fff;
+	border-color: #fff;
+	background-color: #fff;
+	border: none;
+}
+
+@media (max-width: 640px) { /* smartphones, iPhone, portrait 480x320 phones */
+	.button .btn-open{
+		display: block;
+	}
+	.menu .button{
+		background-color: #0e0e0e;
+	}
+	.menu .button a{
+		color: #fff;
+		line-height: 3;
+	}
+	.content{
+		position: relative;
+		margin-top: 20%; 
+		margin-left: 5%;
+		margin-right: 5%;
+		background-color: #000;
+		background: rgb(0, 0, 0); /* Fallback for older browsers without RGBA-support */
+    	background: rgba(0, 0, 0, 0.7);
+    	text-align: center;
+	}
+	.content h1{
+		color: #fff;
+		letter-spacing: 0.2em;
+	}
+	hr{
+		width: 20%;
+	}
+	.description{
+		color: #fff;
+		padding-left: 1%;
+		padding-right: 1%;
+		padding-top: 2%;
+		padding-bottom: 2%;
+		font-weight: 400;
+		font-size: 13px;
+		line-height: 2;
+	}
+}
+
+@media (min-width: 641px) and (max-width: 960px){ /* smartphones, iPhone, portrait 480x320 phones */
+}
+
+@media (min-width: 961px) { /* smartphones, iPhone, portrait 480x320 phones */
+}
