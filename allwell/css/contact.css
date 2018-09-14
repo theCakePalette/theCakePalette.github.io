@@ -3,7 +3,7 @@ body{
 	background-attachment: fixed;
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-position: left;
+	background-position: top;
 }
 
 .menu{
@@ -28,9 +28,9 @@ body{
 }
 hr{
 	height: 2px;
-	color: #fff;
-	border-color: #fff;
-	background-color: #fff;
+	color: #000;
+	border-color: #000;
+	background-color: #000;
 	border: none;
 }
 footer{
@@ -67,43 +67,73 @@ footer{
 		color: #fff;
 		line-height: 3;
 	}
-	.content{
+	.head{
 		position: relative;
 		margin-top: 20%; 
-		margin-left: 5%;
-		margin-right: 5%;
-		margin-bottom: 5%;
+		margin-left: 3%;
+		margin-right: 3%;
 		background-color: #000;
 		background: rgb(0, 0, 0); /* Fallback for older browsers without RGBA-support */
     	background: rgba(0, 0, 0, 0.7);
     	text-align: center;
 	}
-	.content h1{
+	.content{
+		position: relative;
+		margin-top: -1%;
+		margin-left: 3%;
+		margin-right: 3%;
+		margin-bottom: 5%;
+		padding-top: 4%;
+		background-color: #000;
+		background: rgb(255, 255, 255); /* Fallback for older browsers without RGBA-support */
+    	background: rgba(255, 255, 255, 0.7);
+    	text-align: center;
+	}
+	.head h1{
 		color: #fff;
 		letter-spacing: 0.2em;
 		padding-top: 4%;
 		padding-bottom: 6%;
 		font-family: 'Varela Round' , sans-serif;
 	}
-	.content h5{
+	.head h5{
 		color: #b08849;
 		letter-spacing: 0.2em;
-		padding-bottom: 4%;
+		padding-bottom: 5%;
 		font-family: 'Varela Round' , sans-serif;
 	}
 	hr{
 		width: 20%;
 	}
 	.description{
-		color: #fff;
+		color: #000;
 		padding-left: 1%;
 		padding-top: 2%;
 		padding-right: 1%;
 		padding-bottom: 2%;
-		font-weight: 400;
-		font-size: 13px;
+		font-weight: bold;
+
 		line-height: 2;
 		font-family: 'Varela Round' , sans-serif;
+	}
+	.description img{
+		max-width: 250px;
+		height: auto;
+	}
+	.description h3{
+		color: #684017;
+		letter-spacing: 0.2em;
+		padding-top: 5%;
+		padding-bottom: 5%;
+		font-family: 'Varela Round' , sans-serif;
+	}
+	.description .call{
+		
+		padding-bottom: 2%;
+	}
+	.description .address {
+		padding-top: 2%;
+		padding-bottom: 2%;
 	}
 }
 
