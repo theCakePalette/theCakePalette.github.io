@@ -49,8 +49,9 @@ hr{
 		height: auto;
 	}
 	.content{
-		position: absolute;
+		position: relative;
 		margin: 3%;
+		margin-top: 4%;
 		max-width: 100%;
 	}
 	hr{
@@ -89,7 +90,7 @@ hr{
 		height: auto;
 	}
 	.content{
-		position: absolute;
+		position: relative;
 		margin: 3%;
 		max-width: 100%;
 	}
