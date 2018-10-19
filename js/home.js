@@ -47,9 +47,10 @@ $(document).ready(function(){
 	}
 
 	if($(window).width() <= 961){
-		var welHgt = $(".header").outerHeight() + $(".showing").outerHeight() + 35;
+		var welHgt = $(".showing").outerHeight() + 30;
+		console.log($(".showing").outerHeight());
 		$(".content").css("top", welHgt);
-		var footHgt = $(".header").outerHeight() + $(".showing").outerHeight() + $(".content").outerHeight() - 150;
+		var footHgt = $(".content").outerHeight() - 150;
 		$(".footer").css("top", footHgt);
 	}
 	if($(window).width() > 961){
@@ -57,15 +58,15 @@ $(document).ready(function(){
 		$(".footer").css("top", footHgt);
 	}
 
-	/*var copyHgt = $(".header").outerHeight() + $(".showing").outerHeight() + $(".content").outerHeight() + $(".footer").outerHeight() - 109;
-	$(".copyright").css("top", copyHgt);*/
+	// var copyHgt = $(".header").outerHeight() + $(".showing").outerHeight() + $(".content").outerHeight() + $(".footer").outerHeight() - 109;
+	// $(".copyright").css("top", copyHgt);
 });
 
 $(window).resize(function() {
    if($(window).width() <= 961){
-		var welHgt = $(".header").outerHeight() + $(".showing").outerHeight() + 35;
+		var welHgt = $(".showing").outerHeight() + 35;
 		$(".content").css("top", welHgt);
-		var footHgt = $(".header").outerHeight() + $(".showing").outerHeight() + $(".content").outerHeight() - 150;
+		var footHgt = $(".content").outerHeight() - 150;
 		$(".footer").css("top", footHgt);
 	}
 	if($(window).width() > 961){
