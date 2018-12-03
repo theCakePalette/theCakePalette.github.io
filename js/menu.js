@@ -23,9 +23,21 @@ $(document).ready(function(){
 
     $('.mainmenusub').click(function(){
         $(this).siblings('.submenu').slideToggle('medium',function(){
+            $('#cake-custom-mobile').css('display','none');
+            $('#cake-gourmet-mobile').css('display','none');
+            $('#cake-tea-mobile').css('display','none');
+            $('#cupcake-mobile').css('display','none');
+            $('#cookie-mobile').css('display','none');
+            $('#cakepop-mobile').css('display','none');
+            $('#tart-mobile').css('display','none');
+            $('#brownie-mobile').css('display','none');
+            $('#creampuff-mobile').css('display','none');
+            $('#cake-celebration-mobile').css('display','none');
             if ($(this).is(':visible'))
                 $(this).css('display','block');
-        } );
+
+        });
+       
         event.preventDefault();
     });
     $('.mainmenu').click(function(){

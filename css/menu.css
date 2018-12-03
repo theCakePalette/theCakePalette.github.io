@@ -39,6 +39,10 @@ body {
 		width: 100%;
 		text-align: center;
 	}
+	.submenu{
+		padding-left: 5%;
+		font-size: 1em;
+	}
 	#cake-celebration, #cake-custom, #cake-gourmet, #cake-tea, #cupcake, #cookie, #tart, #brownie, #creampuff, #cakepop{
 		display: none;
 	}
@@ -112,6 +116,10 @@ body {
 		color: #640032;
 		width: 100%;
 		text-align: center;
+	}
+	.submenu{
+		padding-left: 5%;
+		font-size: 1em;
 	}
 	#cake-celebration, #cake-custom, #cake-gourmet, #cake-tea, #cupcake, #cookie, #tart, #brownie, #creampuff, #cakepop{
 		display: none;
