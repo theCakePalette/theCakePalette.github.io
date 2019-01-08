@@ -197,7 +197,7 @@ $(document).ready(function(){
                         });
                     } else {
                         $sidenav.stop().animate({
-                            marginTop: 0
+                            marginTop: 10
                         });
                     }
                 }
