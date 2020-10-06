@@ -4,7 +4,17 @@ body{
 	background-repeat: no-repeat;
 	background-position: top;
 }
-
+.temp_closed_message{
+	position: relative;
+	text-align: center;
+	color: #355b4f;
+}
+.temp_closed_message p{
+	font-weight: bold;
+}
+.header{
+	position: relative;
+}
 @media (max-width: 640px) { /* smartphones, iPhone, portrait 480x320 phones */
 	body{
 		background-image: url("/theCakePalette.github.io/images/background_portrait.jpg");
