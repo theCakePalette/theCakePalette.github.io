@@ -108,9 +108,10 @@ body{
 		text-align: center;
 	}
 	.footer .foot2 li a, .footer .only-mobile li a{
-		font-size: 0.5em;
+		font-size: 0.55em;
 		font-family: 'Lato';
 		font-weight: bold;
+		letter-spacing: 0.15em;
 		color: #96004b;
 	}
 	.footer .foot2 li a img{
@@ -203,6 +204,7 @@ body{
 		font-size: 0.55em;
 		font-family: 'Lato';
 		font-weight: bold;
+		letter-spacing: 0.2em;
 		color: #96004b;
 	}
 	.footer .foot2 li a img{
@@ -288,6 +290,7 @@ body{
 		font-size: 0.55em;
 		font-family: 'Lato';
 		font-weight: bold;
+		letter-spacing: 0.2em;
 		color: #96004b;
 	}
 	.footer .foot li a:hover, .footer .foot1 li a:hover, .footer .foot2 li a:hover{
