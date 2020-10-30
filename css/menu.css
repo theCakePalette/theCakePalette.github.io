@@ -52,6 +52,9 @@ body {
 		margin: 3%;
 	}
 	.content-menu .menu-head{
+		display: none;
+	}
+	.content-menu .menu-head-mobile{
 		padding-top: 5%;
 		font-family: 'Lato';
 		font-size: 2em;
@@ -146,6 +149,9 @@ body {
 		width: auto;
 	}
 	.content-menu .menu-head{
+		display: none;
+	}
+	.content-menu .menu-head-mobile{
 		position: relative;
 		margin-top: 3%;
 		font-family: 'Lato';
@@ -227,13 +233,15 @@ body {
 		margin: auto;
 		width: 900px;
 	}
+	.content-menu .menu-head-mobile{
+		display: none;
+	}
 	.content-menu .menu-head{
 		position: relative;
 		margin-top: 3%;
 		font-family: 'Lato';
 		font-size: 2em;
 		color: #355b4f;
-		margin-left: 20%;
 		letter-spacing: 0.2em;
 		font-weight: bold;
 	}
@@ -241,6 +249,7 @@ body {
 		width: 100%;
 	}
 	.sidenav {
+		margin-top: 15%;
 	    width: 180px;
 	    position: relative;
 	    background: #640032;
