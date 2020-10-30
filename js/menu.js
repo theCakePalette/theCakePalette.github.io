@@ -187,7 +187,7 @@ $(document).ready(function(){
             var $sidenav = $(".sidenav"), 
                 $window    = $(window),
                 offset     = $sidenav.offset(),
-                topPadding = 15;
+                topPadding = 200;
 
             $window.scroll(function() {
                 if(!(isScrolledIntoView($('.social-links')))){
